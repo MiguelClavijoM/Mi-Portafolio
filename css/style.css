@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header nav .menu {
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgb(30, 30, 29),
+    rgb(55, 55, 51),
+    rgb(57, 57, 57),
+    rgb(150, 150, 150)
+  );
+}
+
+header nav .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .menu .links {
+  display: flex;
+}
+
+header nav .menu .img {
+  margin-right: 150px;
+  width: 35px;
+}
+
+header nav .menu .links a {
+  text-decoration: none;
+  padding: 16px 12px;
+  margin-right: 20px;
+  color: white;
+  transition: 0.3s;
+}
+
+header nav .menu .links a:hover {
+  color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 220px;
+  position: relative;
+}
+
+.container .redes a {
+  text-decoration: none;
+  padding: 10px 5px;
+  color: black;
+  display: flex;
+}
+
+main .container .miFotomain {
+  width: 200px;
+  transition: 1s;
+}
+
+main .container .miFotomain:hover {
+  width: 250px;
+}
+
+.container .redes a:hover {
+  font-size: 20px;
+}
+
+.textoimg{
+	display: flex;
+	position: absolute;
+	float: left;
+	align-items: center;
+	flex-direction: column;
+	visibility: hidden;
+}
