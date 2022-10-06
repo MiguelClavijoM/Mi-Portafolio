@@ -1,82 +1,49 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Times New Roman", Times, serif;
+*{
+  overflow: hidden;
 }
 
-header nav .menu {
-  background: linear-gradient(
-    to right,
-    rgb(0, 0, 0),
-    rgb(30, 30, 29),
-    rgb(55, 55, 51),
-    rgb(57, 57, 57),
-    rgb(150, 150, 150)
-  );
-}
-
-header nav .menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-header nav .menu .links {
-  display: flex;
-}
-
-header nav .menu .img {
+.logo {
   margin-right: 150px;
   width: 35px;
 }
 
-header nav .menu .links a {
+a{
   text-decoration: none;
-  padding: 16px 12px;
-  margin-right: 20px;
-  color: white;
-  transition: 0.3s;
-}
-
-header nav .menu .links a:hover {
-  color: grey;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 220px;
-  position: relative;
-}
-
-.container .redes a {
-  text-decoration: none;
-  padding: 10px 5px;
   color: black;
+}
+
+a:hover{
+  color: rgb(84, 84, 84);
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+main{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-main .container .miFotomain {
-  width: 200px;
-  transition: 1s;
+.card{
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  color: white;
 }
 
-main .container .miFotomain:hover {
-  width: 250px;
+.container-fluid{
+  background-color: transparent;
 }
 
-.container .redes a:hover {
-  font-size: 20px;
-}
-
-.textoimg{
-	display: flex;
-	position: absolute;
-	float: left;
-	align-items: center;
-	flex-direction: column;
-	visibility: hidden;
+.col-12 .row{
+  background-color: transparent;
 }
